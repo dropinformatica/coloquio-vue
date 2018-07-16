@@ -1,0 +1,271 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.topo {
+    min-height: 720px;
+    background-image: url('../img/art-school-of-athens-1143741_1920.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.topo .mascara-black {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 720px;
+}
+
+.topo .menu .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topo .menu {
+    color: #fff;
+    padding-top: 40px;
+}
+
+.options ul li {
+    display: inline;
+    padding-right: 10px;
+}
+
+.options a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.options a:hover {
+    color: #ccc;
+}
+
+.info .container{
+    padding-top: 10%;
+    text-align: center;
+    width:60%;
+}
+
+
+.info .titulo {
+    /* width:50%; */
+    color: #fff;
+}
+
+.btn-titulo {
+    padding: 20px 30px 20px 30px;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.btn-titulo:hover {
+    background: #fff;
+    transition: background-color 1s ease;
+    color:#666;
+}
+
+.btn-titulo:focus {
+    outline: none;
+}
+
+.btn-enviar {
+    padding: 20px 30px 20px 30px;
+    background: #666;
+    border: 1px solid #666;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+}
+.btn-enviar:focus{
+    outline: none;
+}
+
+
+.titulo h1 {
+    padding: 30px 0px 30px 0px;
+    color: #fff;
+    font-size: 50px;
+}
+
+.titulo h5 {
+    padding: 0px 0px 30px 0px;
+    font-weight: 100;
+}
+
+.titulo h5 {
+    font-size: 16px;
+}
+
+.informacoes .container{
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+   
+}
+.informacoes .container .foto-informacoes{
+    width:60%;
+}
+.informacoes .container .foto-informacoes img{
+    width:89%;
+}
+.informacoes .container .texto-informacoes{
+    width:34%;
+}
+.informacoes .container .texto-informacoes h3{
+    font-size: 30px;
+    line-height: 33px;
+    margin-bottom:24px;
+    font-weight: 400;
+}
+.informacoes .container .texto-informacoes p{
+    font-size:14px;
+    margin-bottom: 24px;
+    color:#888;
+}
+.informacoes .btn-informacoes{
+    font-size:12px;
+    padding:20px 60px 20px 60px;
+    background:#2980b9;
+    color:#fff;
+    border:none;
+    outline:none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.zero {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.dig {
+    width: 100%;
+    min-height: 10px;
+    background: #CFB53B;
+}
+
+.ingressos {
+    min-height: 250px;
+    background-image: url('../img/pay.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.ingressos .row {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    min-height: 250px;
+    margin: 0;
+}
+
+.ingressos h3 {
+    padding-top: 100px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.ingressos h5 {
+    color: #fff;
+}
+
+.image {
+    width: 100px;
+}
+
+.btn-info-palestras {
+    background: #e74c3c;
+    padding: 20px;
+    color: #fff;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    margin: 60px 0px 60px 0px;
+    outline: none;
+}
+
+.btn-info-palestras:focus {
+    outline: none;
+}
+
+.dia {
+    margin: 10px;
+}
+
+.inscricao {
+    min-height: 500px;
+    margin-top: 30px;
+}
+
+.inscricao .formulario {
+    text-align: left;
+}
+
+.inscricao span {
+    color: #e74c3c;
+    font-size: 12px;
+}
+
+.inscricao p {
+    margin: 0;
+    font-size: 12px;
+    color: #CFB53B;
+}
+
+.inscricao .formulario .input-inscricao {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 100px;
+    border: 1px solid #ddd;
+    font-size: 12px;
+    height: 55px;
+    outline: none;
+    color: #aaa;
+}
+
+.input-inscricao::placeholder {
+    color: #aaa;
+}
+
+.inscricao .formulario .input-inscricao:focus {
+    outline: none;
+}
+
+.inscricao .btn-inscricao {
+    background: #e74c3c;
+    padding: 20px;
+    color: #fff;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    outline: none;
+}
+
+.inscricao .info-inscricao {
+    width: 100%;
+}
