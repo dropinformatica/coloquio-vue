@@ -31,129 +31,7 @@
 </head>
 
 <body>
-
-
-
-  <div class="topo">
-    <div class="mascara-black">
-      <div class="menu">
-        <div class="container">
-          <div class="logo">
-            <img src="static/img/balance.png"> VIII COLÓQUIO
-          </div>
-          <div class="options">
-            <ul>
-              <li>
-                <a href="javascript:;">Home</a>
-              </li>
-              <li>
-                <a href="javascript:;">Informações</a>
-              </li>
-              <li>
-                <a href="javascript:;">Programação</a>
-              </li>
-              <li>
-                <a href="javascript:;">Ingresso</a>
-              </li>
-              <li>
-                <a href="javascript:;">Contato</a>
-              </li>
-              <li>
-                <a href="https://facebook.com/direitoerazao" target="_blank">
-                  <i class="fab fa-facebook"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="info">
-        <div class="container">
-
-          <div class="titulo">
-            <h1 class="wow fadeInDownBig">VIII Colóquio de Direito PUC-MG
-            </h1>
-            <h5 class="wow fadeInDownBig">Oitavo Colóquio de Direito, Argumentação e
-                Normatividade -
-                2018</h5>
-
-            <!-- <h3>05/08/2018 às 19:00</h3> -->
-
-          </div>
-          <button class="btn-titulo wow fadeInUp" data-wow-delay="0.6s">
-            INFORMAÇÕES
-          </button>
-          <button class="btn-enviar wow fadeInUp" data-wow-delay="0.6s">
-            ENVIAR ARTIGO
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="informacoes">
-    <div class="container">
-      <div class="foto-informacoes">
-        <img src="static/img/agenda.jpg">
-      </div>
-      <div class="texto-informacoes">
-        <h3>Informações gerais</h3>
-        <p>O Colóquio Será realizado nos dias 05 e 06 de setembro de 2018, de 08:00 as 12:00, 15:00 as 18:00 e 19:00 as 22:00,
-          no Auditório II do Prédio 5 do Campus Coração Eucarístico da PUC Minas, conforme programa abaixo. O público alvo
-          é constituído por estudantes de Graduação, Pós-Graduação, pesquisadores e profissionais da área do Direito, bem
-          como das ciências Humanas e Sociais.</p>
-        <button class="btn-informacoes">
-          EDITAL
-        </button>
-      </div>
-    </div>
-  </div>
-
-
-<div id="app">
-  
-</div>
-  <div class="ingressos">
-    <div class="row">
-      <div class="container">
-        <h3>SUBMETER ARTIGO</h3>
-        <h5>Para submissão de artigos faça a inscrição abaixo e realize o pagamento.</h5>
-      </div>
-    </div>
-  </div>
-
-  <div class="inscricao">
-
-    <div class="container">
-
-      <div class="row">
-        <div class="col-6">
-          <div class="formulario wow fadeInLeft" data-wow-delay="0.6s">
-            <p>Todos os campos são obrigatórios</p>
-            <form>
-              <input type="text" class="input-inscricao" placeholder="Nome" v-model="nome">
-              <input type="text" class="input-inscricao" placeholder="Email" v-model="email">
-              <input type="text" class="input-inscricao" placeholder="Telefone" v-model="telefone">
-
-            </form>
-            <button class="btn-inscricao" @click="enviar()">
-              ENVIAR
-            </button>
-         
-
-
-          </div>
-        </div>
-        <div class="col-6">
-          <div class="info-inscricao">
-            <img src="static/img/pay.jpg" class="img-thumbnail wow fadeInRight" data-wow-delay="0.6s">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
+  <div id="app"></div>
 
   <script src="static/js/jquery.min.js"></script>
   <script src="static/js/bootstrap.min.js"></script>
@@ -173,16 +51,13 @@
       $('.slide-palestra').slick({
         // infinite: true,
         speed: 600,
-        slidesToShow: 2,
+        slidesToShow: 1,
         adaptiveHeight: true,
-        autoplay: true,
-        autoplaySpeed: 2000
+        // autoplay: true,
+        // autoplaySpeed: 2000
       });
     })
   </script>
-
-
-
 </body>
 
 </html>

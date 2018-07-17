@@ -167,33 +167,24 @@ body {
 
 .ingressos {
     min-height: 250px;
-    background-image: url('../img/pay.jpg');
-    background-size: 100%;
-    background-attachment: fixed;
     text-align: center;
-}
-
-.ingressos .row {
-    position: absolute;
-    background: rgba(0, 0, 0, 0.8);
-    width: 100%;
-    min-height: 250px;
+    color:#666;
     margin: 0;
 }
 
+
+
 .ingressos h3 {
     padding-top: 100px;
-    color: #fff;
+
     margin-bottom: 20px;
 }
 
 .ingressos h5 {
-    color: #fff;
+
 }
 
-.image {
-    width: 100px;
-}
+
 
 .btn-info-palestras {
     background: #e74c3c;
